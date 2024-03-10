@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaRegPlayCircle } from "react-icons/fa";
+import image2 from "../../assets/image2.jpg";
 
 
 function VirtualSiteTourSection({ handleOpenModel }) {
@@ -9,8 +10,7 @@ function VirtualSiteTourSection({ handleOpenModel }) {
                 <div>
                     <span className=' text-xl border border-blue-500 px-4 rounded-full'>Virtual Site Tour</span>
                     <div className=' mt-4 flex flex-col md:flex-row lg:flex-row lg:px-6 gap-4'>
-                        <div onClick={handleOpenModel} className=' cursor-pointer' style={{ backgroundImage: "url(" + "https://www.bangaloreprojects.info/welkin-park/search/assets/img/slider2.jpg" + ")", width: "100%", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", height: "300px" }}>
-                            {/* <img src="https://www.bangaloreprojects.info/welkin-park/search/assets/img/slider2.jpg" alt="" /> */}
+                        <div onClick={handleOpenModel} className=' cursor-pointer' style={{ backgroundImage: "url(" + `${image2}` + ")", width: "100%", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", height: "300px" }}>
                             <div className=' flex flex-col justify-center items-center w-full  h-full'>
                                 <div className='flex flex-col justify-center items-center text-center w-full p-5 bg-black'>
                                     <FaRegPlayCircle className=' text-5xl text-white ' />
@@ -19,8 +19,7 @@ function VirtualSiteTourSection({ handleOpenModel }) {
                                 </div>
                             </div>
                         </div>
-                        <div onClick={handleOpenModel} className=' cursor-pointer' style={{ backgroundImage: "url(" + "https://www.bangaloreprojects.info/welkin-park/search/assets/img/slider2.jpg" + ")", width: "100%", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", height: "300px" }}>
-                            {/* <img src="https://www.bangaloreprojects.info/welkin-park/search/assets/img/slider2.jpg" alt="" /> */}
+                        <div onClick={handleOpenModel} className=' cursor-pointer' style={{ backgroundImage: "url(" + `${image2}` + ")", width: "100%", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", height: "300px" }}>
                             <div className=' flex flex-col justify-center items-center w-full  h-full'>
                                 <div className='flex flex-col justify-center items-center text-center w-full p-5 bg-black'>
                                     <FaRegPlayCircle className=' text-5xl text-white ' />

@@ -1,46 +1,48 @@
-import React from 'react'
+import React from 'react';
+import image1 from "../../assets/image1.jpg";
+import image2 from "../../assets/image2.jpg";
 
 function GallerySection() {
     const imageData = [
         {
             id: 1,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image1
         },
         {
             id: 2,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image2
         },
         {
             id: 3,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image1
         },
         {
             id: 4,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image2
         },
         {
             id: 5,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image1
         },
         {
             id: 6,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image2
         },
         {
             id: 7,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image1
         },
         {
             id: 8,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image2
         },
         {
             id: 9,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image1
         },
         {
             id: 10,
-            img: "https://www.bangaloreprojects.info/welkin-park/search/assets/img/g9.jpg"
+            img: image2
         },
     ]
     return (

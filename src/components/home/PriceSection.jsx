@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import costingDetails from "../../assets/costing-details.webp";
 
 function PriceSection({ handleOpenModel }) {
     const priceData = [
@@ -47,7 +48,7 @@ function PriceSection({ handleOpenModel }) {
                         </table>
                     </div>
                     <div className=' w-[30%]'>
-                        <img onClick={handleOpenModel} className=' cursor-pointer' src="https://www.sales-enquiry.site/adarsh-welkin-park/search/assets/img/costing-details-320w.webp" alt="" />
+                        <img onClick={handleOpenModel} className=' cursor-pointer' src={costingDetails} alt="" />
                     </div>
                 </div>
                 <div className=' mt-4 md:hidden lg:hidden '>
@@ -62,7 +63,7 @@ function PriceSection({ handleOpenModel }) {
                         ))}
                     </div>
                     <div className=' w-[100%] mt-3'>
-                        <img onClick={handleOpenModel} className=' w-full cursor-pointer' src="https://www.sales-enquiry.site/adarsh-welkin-park/search/assets/img/costing-details-320w.webp" alt="" />
+                        <img onClick={handleOpenModel} className=' w-full cursor-pointer' src={costingDetails} alt="" />
                     </div>
                 </div>
             </div>

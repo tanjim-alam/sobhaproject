@@ -45,8 +45,8 @@ function FormModel() {
                 alert("Submitted Successfully")
             }
         } catch (error) {
-            console.log(error)
             setIsError(true)
+            throw error
         }
     }
     return (
@@ -78,7 +78,7 @@ function FormModel() {
                             <input name="number" type="text" placeholder="+91 - " value={LeadData.number} onChange={handleOnChange} required className="w-full  border-b border-black p-2 rounded-sm outline-none" />
                             <input name="email" type="email" placeholder="Email" value={LeadData.email} onChange={handleOnChange} required className="w-full border-b border-black p-2 rounded-sm outline-none" />
                         </div>
-                        <span>{isError ? "all fields are required" : null}</span>
+                        <span className=' text-red-600'>{isError ? "all fields are required" : null}</span>
                         <button type="submit" onClick={handleSubmit} className=" mt-5 bg-yellow-600 w-full p-1 text-white rounded-sm">Enquire Now</button>
 
                     </form>

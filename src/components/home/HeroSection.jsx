@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import heroimg from "../../assets/heroimg.jpg";
 
 function HeroSection({ handleOpenModel }) {
     return (
-        <div className=' lg:h-[100vh]' style={{ backgroundImage: "url(" + "https://sobhaupcoming.com/images/sobha-neopolis.jpg" + ")", width: "100%", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+        <div className=' lg:h-[100vh]' style={{ backgroundImage: "url(" + `${heroimg}` + ")", width: "100%", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
             <div className=' p-4 lg:flex md:justify-center md:items-center lg:justify-start  lg:items-end m-auto relative lg:top-10 lg:left-4'>
                 <div className=' bg-white md:w-[430px] md:m-auto lg:m-0 lg:w-[430px] rounded-md p-2 '>
                     <div style={{ border: "1px dashed black" }} className=' p-2'>

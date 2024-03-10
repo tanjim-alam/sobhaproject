@@ -35,14 +35,14 @@ function SideBar({ handleOpenModel }) {
                 alert("Submitted Successfully")
             }
         } catch (error) {
-            console.log(error)
+            throw error
         }
     }
     return (
         <div className='min-w-[300px] h-[100vh] bg-white p-4 '>
             <div className='flex justify-between gap-2'>
-                <button className=' bg-black text-white px-2  rounded-full'>Organize Site Visit</button>
-                <NavLink className=' bg-black text-white px-2  rounded-full'>+91-936329764</NavLink>
+                <button onClick={handleOpenModel} className=' bg-black text-white px-2  rounded-full'>Organize Site Visit</button>
+                <NavLink className=' bg-black text-white px-2  rounded-full'>+91-93632xxxx</NavLink>
             </div>
             <div className=' text-center mt-6 '>
                 <button onClick={handleOpenModel} className=' bg-yellow-600 px-3 rounded-full py-1 font-medium text-white'>

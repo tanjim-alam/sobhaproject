@@ -1,11 +1,12 @@
 import React from 'react'
+import masterPlan from "../../assets/master.jpg";
 
 function SiteAndFloorPlanSection({ handleOpenModel }) {
     const data = [
-        "https://www.sales-enquiry.site/adarsh-welkin-park/search/assets/img/master.jpg",
-        "https://www.sales-enquiry.site/adarsh-welkin-park/search/assets/img/master.jpg",
-        "https://www.sales-enquiry.site/adarsh-welkin-park/search/assets/img/master.jpg",
-        "https://www.sales-enquiry.site/adarsh-welkin-park/search/assets/img/master.jpg",
+        masterPlan,
+        masterPlan,
+        masterPlan,
+        masterPlan,
     ]
     return (
         <div className=' bg-white p-4 flex flex-col gap-3 relative border border-gray-200 mt-4'>
