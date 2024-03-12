@@ -11,13 +11,13 @@ function HeroSection({ handleOpenModel }) {
                             <h2 className=' text-center p-2 text-xl font-semibold text-cyan-500'>BOOKING OPEN</h2>
                         </div>
                         <div className=' flex flex-col text-center'>
-                            <h1 className=' text-center p-2 text-2xl font-semibold'>SOBHA CRYSTAL PALACE</h1>
+                            <h1 className=' text-center p-2 text-2xl font-semibold'>SOBHA CRYSTAL MEADOWS</h1>
                             <h3 className=' text-xl font-medium'>Sarjapur, Bangalore</h3>
                             <p className=' text-lg'>By Sobha Group</p>
                         </div>
                         <div className=' px-10 mt-4 text-center'>
                             <p>
-                                <span className=' font-medium'>Sobha Crystal Palace</span> - Launching Soon Luxurious Villas
+                                <span className=' font-medium'>Sobha Crystal Meadows</span> - Launching Soon Luxurious Villas
                             </p>
                         </div>
                         <div className=' animate-bounce mt-4 font-medium bg-yellow-600 text-center px-2 py-1 rounded-sm text-sm text-white'>
